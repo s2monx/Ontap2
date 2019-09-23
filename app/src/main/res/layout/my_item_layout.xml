@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/imgitem"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tvitem"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/chkXoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>
